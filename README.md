@@ -18,7 +18,7 @@ Given the command-line application that accepts user input, user will be prompte
 
 URL of Github repository : https://github.com/mvfranzke/Readme-Generator
 
-Video Link: https://drive.google.com/file/d/1kMZvJ6hZAUpPFmjebCtbVQjFbcE2_Ctl/view?usp=sharing
+Video Link (user flow): https://drive.google.com/file/d/1kMZvJ6hZAUpPFmjebCtbVQjFbcE2_Ctl/view?usp=sharing
 
 ## Credits
 I've used the following in completing this project:
