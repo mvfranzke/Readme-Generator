@@ -14,13 +14,21 @@ npm i inquirer @8.2.4
 ```
 
 ## Usage
+Given the command-line application that accepts user input, user will be prompted to enter the title of their project, description, installation, usage, license, how to contribute, test, github username and email. Once user enter all the information, they will receive a prompt that README file is created which display all their entries and display list table of contents with links.
 
 URL of Github repository : https://github.com/mvfranzke/Readme-Generator
 
-Screenshot of deployed application can be found here: ![alt text](./deployed%20page.jpg)
-
 ## Credits
-N/A
+I've used the following in completing this project:
+
+- https://www.npmjs.com/package/inquirer#reactive
+- https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide
+
+Youtube Tutorials:
+- https://youtu.be/P3aKRdUyr0s
+- https://www.youtube.com/watch?v=PGAGcePjbPA
+
 
 ## License
 N/A
