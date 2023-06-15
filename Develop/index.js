@@ -75,6 +75,7 @@ const inquirer = require("inquirer");
       const readMeContent = `# ${userInput.title}
 
 ## Description
+
 ${userInput.description}
 
 ## Table of Contents
@@ -87,26 +88,35 @@ ${userInput.description}
 - [Questions](#questions)
 
 ## Installation
+
 ${userInput.installation}
 
 ## Usage
+
 ${userInput.usage}
 
 ## Credits
+
 ${userInput.credits}
 
 ## License
+
 ${userInput.license}
 
 ## Contribute
+
 ${userInput.contribute}
 
 ## Test
+
 ${userInput.test}
 
 ## Questions
+
 For any questions or inquiries, you may contact me directly through GitHub or my email:
+
 - GitHub: [${userInput.githubUserName}](https://github.com/${userInput.githubUserName})
+
 - Email: ${userInput.email}
 `;
       fs.writeFile("README.md", readMeContent, (err) => {
