@@ -109,3 +109,14 @@ For any questions or inquiries, you may contact me directly through GitHub or my
 - GitHub: [${userInput.githubUserName}](https://github.com/${userInput.githubUserName})
 - Email: ${userInput.email}
 `;
+      fs.writeFile("README.md", readMeContent, (err) => {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log("README.md file is created");
+        }
+      });
+    })
+    .catch((error) => {
+      console.error(error);
+    });
